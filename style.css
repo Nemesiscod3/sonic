@@ -1,0 +1,28 @@
+body{
+
+    margin:0;
+}
+
+
+.header-section{
+
+    background-color: #1f2937;
+    
+
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    align-items: center;
+    align-content: center;
+    
+   
+}
+
+li a {
+    
+    text-decoration: none;
+    
+}
