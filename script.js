@@ -1,1 +1,1 @@
-aleart(website in beta)
+alert('website in beta');
