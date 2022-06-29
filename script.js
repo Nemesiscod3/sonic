@@ -1,1 +1,1 @@
-alert('website in beta');
+alert('sonic website in beta');

@@ -71,7 +71,10 @@ button{
     border-radius: 4px;
     font-size: 16px;
     padding: 12px 28px;
+   
 }
+
+
 
 .qoute-section{
 
@@ -81,8 +84,17 @@ button{
     font-size: 36px;
     align-items: center;
     justify-content: center;
+    display: block;
+    
+    
 }
 
+
+.sign-up-section{
+
+    margin: 48px;
+
+}
 
 #qoute-text{
 
@@ -93,8 +105,9 @@ button{
 #qoute-name{
 
     font-weight: 700;
-    display: inline-block;
+    justify-content: flex-end;
     display: flex;
+    margin-right: 48px;
     
 }
 
@@ -108,14 +121,20 @@ button{
     height: 72px;
 }
 
+#call-to-action{
+
+    font-weight: bold;
+}
 
 
 #sub-sign-up-section{
 
     background-color: #3882f6;
-    width: 600px;
+    width: 900px;
     height: 100px;
-
+    color: #e5e7eb;
+    border-radius: 6px;
+   
    
 }
 
@@ -125,5 +144,17 @@ button{
 display: flex;
 justify-content: center;
 align-items: center;
+
+}
+
+
+.btn1{
+
+border: #3882f6 2px;
+}
+
+.btn2{
+
+border: #ffffff 8px;
 
 }
