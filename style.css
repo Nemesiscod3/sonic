@@ -26,6 +26,10 @@ body{
 .sonic-characters{
 
     display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin: 42px;
+    color: #ffffff;
 }
 
 
@@ -162,6 +166,8 @@ button{
     
    
 }
+
+
 
 
 .sign-up-section{
