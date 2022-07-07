@@ -63,9 +63,10 @@ a{
 
 .header-introduction{
 
+    display: flex;
     background-color: #1a2636;
     color: #ffffff;
-   
+    
 }
 
 
@@ -163,12 +164,11 @@ button{
     height: 100px;
     color: #e5e7eb;
     border-radius: 6px;
+    display: inline-block;
+
     
    
 }
-
-
-
 
 .sign-up-section{
 
