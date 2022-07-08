@@ -17,9 +17,20 @@ body{
     
 }
 
-#sonicpiture{
+.sub-header{
+
+    margin: 42px;
+}
+
+#sonicpiturelogo{
 
     margin: 8px;
+}
+
+.sonic-picture{
+
+    margin: 21px;
+
 }
 
 
@@ -59,6 +70,8 @@ a{
 
     font-size: 48px;
     font-weight: bold;
+    
+   
 }
 
 .header-introduction{
@@ -73,6 +86,7 @@ a{
 .lore-tex{
 
    font-size: 18px; 
+  
 }
 
 button{
@@ -116,6 +130,7 @@ button{
     font-weight: 700;
     font-size: 36px;
     color: #ffffff;
+    margin: 24px;
 }
 
 .sign-up-section{
@@ -165,8 +180,7 @@ button{
     color: #e5e7eb;
     border-radius: 6px;
     display: inline-block;
-
-    
+   ;   
    
 }
 
@@ -180,11 +194,13 @@ align-items: center;
 
 .btn1{
 
-    border: #3882f6 2px;
+    border: 2px solid #3882f6;
+    margin-top: 20px;
+    
     }
     
-    .btn2{
+.btn2{
     
-    border: #ffffff 8px;
+    border: 2px solid #ffffff;
     
     }
