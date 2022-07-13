@@ -1,1 +1,1 @@
-alert('sonic website in beta');
+alert('welcome to my sonic landing page where you can find lore about sonic and his freinds enjoy :D');
