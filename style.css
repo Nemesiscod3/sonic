@@ -2,12 +2,16 @@ body{
 
     margin:0px;
     font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-      background-color: #1b4092;
+      background-image: linear-gradient(to right, rgb(0, 47, 255), rgb(59, 179, 226));
 }
 
 
+p{
+    text-align: center;
+}
 
 
+   
 
 .header-section{
 
@@ -29,7 +33,10 @@ body{
 
 .sonic-picture{
 
-    margin: 21px;
+    margin: 120px;
+    border: 8px solid blue;
+    border-radius: 20px;
+
 
 }
 
@@ -39,7 +46,7 @@ body{
     display: flex;
     justify-content: center;
     gap: 52px;
-    margin: 48px;
+    margin: 80px;
     color: #ffffff;
 }
 
@@ -96,6 +103,7 @@ button{
     border-radius: 4px;
     font-size: 16px;
     padding: 10px 24px;
+    
    
 }
 
@@ -111,13 +119,14 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
+ 
     
 }
 
 .qoute-container{
 
   margin: 26px;
-  
+ 
 }
 
 
@@ -143,8 +152,13 @@ button{
 #qoute-text{
 
     font-style: italic;
-    
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
 }
+
+
+
 
 #qoute-name{
 
@@ -220,6 +234,7 @@ align-items: center;
 
         border: 8px solid yellow;
         border-radius: 20px;
+        
     }
 
     .amy-rose{
@@ -227,6 +242,8 @@ align-items: center;
         border: 8px solid pink;
         border-radius: 20px;
     }
+
+
 
     .knuckles{
 
@@ -239,4 +256,5 @@ align-items: center;
 
         border: 8px solid rgb(124, 116, 0);
         border-radius: 20px;
+       ;
     }
