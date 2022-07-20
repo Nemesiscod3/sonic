@@ -1,6 +1,7 @@
 body{
-
-    margin:0px;
+ 
+  margin: 0px;
+  padding: 0px;
     font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
       background-image: linear-gradient(to right, rgb(0, 47, 255), rgb(59, 179, 226));
 }
@@ -8,9 +9,15 @@ body{
 
 p{
     text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    
 }
 
+div{
 
+    display: block;
+}
    
 
 .header-section{
@@ -24,7 +31,7 @@ p{
 .sub-header{
 
     margin: 42px;
-}
+ }
 
 #sonicpiturelogo{
 
@@ -44,10 +51,13 @@ p{
 .sonic-characters{
 
     display: flex;
+    align-items: center;
     justify-content: center;
-    gap: 52px;
-    margin: 80px;
+    justify-content: space-evenly;
     color: #ffffff;
+    text-align: center;
+    flex-wrap: wrap;
+
 }
 
 
@@ -148,15 +158,6 @@ button{
     margin: 100px;
 
 }
-
-#qoute-text{
-
-    font-style: italic;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
-}
-
 
 
 
