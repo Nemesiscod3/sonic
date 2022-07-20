@@ -1,1 +1,1 @@
-# this is a sonic webiste project for the odin project hope all enjoy what I have made for the odin project
+# this is a sonic webiste project for the odin project hope all enjoy what I have made for the odin project :)
