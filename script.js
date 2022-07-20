@@ -1,1 +1,1 @@
-alert('welcome to my sonic landing page hope all enjoy :)');
+alert('welcome to my sonic landing page hope all enjoy');
